@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/detectbg"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <ToggleButton
+        android:id="@+id/toggle_service"
+        android:background="@drawable/profilebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="@dimen/duplex"
+        android:textOff="@string/toggle_enable"
+        android:textOn="@string/toggle_disable" />
+
+    <Button
+        android:id="@+id/btn_profile"
+        android:layout_width="wrap_content"
+        android:background="@drawable/profilebtn"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="@dimen/duplex"
+        android:text="@string/btn_profile" />
+
+    <com.skyfishjy.library.RippleBackground
+        android:id="@+id/ripple_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rb_color="@color/white_90"
+        app:rb_duration="3000"
+        app:rb_radius="@dimen/medium"
+        app:rb_scale="6">
+
+        <TextView
+            android:id="@+id/txt_detect"
+            fontPath="fonts/ubuntu_bold.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:lineSpacingExtra="@dimen/mini"
+            android:textSize="@dimen/primary_txt"
+            tools:ignore="MissingPrefix" />
+
+    </com.skyfishjy.library.RippleBackground>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="550dp"
+        android:layout_marginStart="@dimen/medium"
+        android:layout_marginEnd="@dimen/medium"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/desc_person"
+        android:maxHeight="@dimen/person"
+        android:src="@drawable/fallingman" />
+
+</android.support.design.widget.CoordinatorLayout>

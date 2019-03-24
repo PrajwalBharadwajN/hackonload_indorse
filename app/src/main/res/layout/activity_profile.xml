@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcombg"
+    android:fitsSystemWindows="true"
+    tools:context=".ProfileActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="265dp"
+                android:src="@drawable/helmet"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+
+            android:padding="@dimen/secondary">
+
+
+
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_emergency_contact_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/duplex"
+                android:background="@color/white_10"
+                android:hint="@string/hint_emergency_1"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="@dimen/primary"
+                android:textColor="@color/white_cc"
+                android:textColorHint="@color/white_90"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/small_txt" />
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_emergency_contact_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/duplex"
+                android:background="@color/white_10"
+                android:hint="@string/hint_emergency_2"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="@dimen/primary"
+                android:textColor="@color/white_cc"
+                android:textColorHint="@color/white_90"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/small_txt" />
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_emergency_contact_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/duplex"
+                android:background="@color/white_10"
+                android:hint="@string/hint_emergency_3"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="@dimen/primary"
+                android:textColor="@color/white_cc"
+                android:textColorHint="@color/white_90"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/small_txt" />
+
+            <Button
+                android:id="@+id/btn_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/duplex"
+                android:layout_marginStart="@dimen/duplex"
+                android:layout_marginTop="@dimen/primary"
+                android:background="@drawable/gradient_profile_button"
+                android:text="@string/btn_update"
+                android:textAllCaps="false"
+                android:textColor="@color/white_cc" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/duplex"
+                android:layout_marginStart="@dimen/duplex"
+                android:layout_marginTop="@dimen/primary"
+                android:background="@drawable/gradient_profile_button"
+                android:text="@string/btn_cancel"
+                android:textAllCaps="false"
+                android:textColor="@color/white_cc" />
+
+        </LinearLayout>
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

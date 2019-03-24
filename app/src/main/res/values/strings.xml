@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">detection</string>
+    <string name="desc_ardms">ARDMS Logo</string>
+    <string name="desc_person">Person Image</string>
+
+    <string name="error_no_internet">No internet connection</string>
+    <string name="error_unexpected">Oops! Something went wrong!</string>
+    <string name="error_empty">Cannot be empty</string>
+    <string name="error_phone_length">Must be 10 digits</string>
+    <string name="error_pass_length">Must be min 6 chars</string>
+
+    <string name="hint_name">Name</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_emergency_1">Emergency Contact 1</string>
+    <string name="hint_emergency_2">Emergency Contact 2</string>
+    <string name="hint_emergency_3">Emergency Contact 3</string>
+
+    <string name="toggle_enable">Enable</string>
+    <string name="toggle_disable">Disable</string>
+
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
+    <string name="btn_profile">Profile</string>
+    <string name="btn_sign_in">Sign In</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_cancel">Cancel</string>
+
+
+
+    <string name="txt_detecting">Detecting..</string>
+    <string name="txt_enable_detection">Enable Detection</string>
+    <string name="txt_did_you_fall">Did you meet with an accident?</string>
+    <string name="txt_sending_alert">Sending alert..</string>
+    <string name="txt_alert_sent">Alert sent</string>
+
+
+    <string name="format_alert">An alert will be sent automatically in %1$ds, if not responded.</string>
+
+</resources>
