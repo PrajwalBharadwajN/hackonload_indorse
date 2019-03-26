@@ -1,1 +1,0 @@
-UPDATE details SET last_name='john' WHERE userid=4
