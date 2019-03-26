@@ -1,1 +1,0 @@
-ALTER TABLE orders DROP INDEX PersonID;
